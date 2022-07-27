@@ -1,0 +1,47 @@
+*{
+    background-color: aliceblue;
+    align-items: center;
+    font-family: monospace;
+
+}
+body h1{
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    color: orangered;
+}
+
+#mainContainer{
+    width: 400px;
+    /* border: 1px solid black; */
+    margin:auto;
+}
+
+#mapContainer{
+    border: 1px solid black;
+        height: 200px;
+        width: 400px;
+        background: border-box;
+        margin: 2px auto;
+        background-color: #fff;
+}
+
+#search{
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 310px;
+    height: 20px;
+    background-color: #fff;
+
+}
+#searchBtn{
+    border-radius: 25px;
+    background-color: brown;
+    color: #fff;
+    cursor: pointer;
+    width: 75px;
+    height: 25px;
+}
+#locate{
+    margin: auto;
+}
